@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 16.548 sec <<< FAILURE!
+LoginRight(TestLoginHSK)  Time elapsed: 4.733 sec  <<< FAILURE!
+java.lang.AssertionError: expected [http://qcwork.inshasaki.com] but found [http://qcwork.inshasaki.com/auth/login]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at TestLoginHSK.LoginRight(TestLoginHSK.java:23)
+
